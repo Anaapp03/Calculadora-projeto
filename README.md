@@ -14,4 +14,4 @@ Projeto desenvolvido para praticar lógica de programação em Python, contendo 
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/Anaapp03/Calculadora-projeto.git](https://github.com/Anaapp03/Calculadora-projeto.git)
+   git clone https://github.com/Anaapp03/Calculadora-projeto.git
