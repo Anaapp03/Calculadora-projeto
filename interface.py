@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Função de cálculo
 def calcular():
     try:
         n1 = float(entry_num1.get())
@@ -24,12 +23,10 @@ def calcular():
     except ValueError:
         messagebox.showerror("Erro", "Digite apenas números válidos!")
 
-# Janela principal
 janela = tk.Tk()
 janela.title("Calculadora Python")
 janela.geometry("300x300")
 
-# Entradas e textos
 tk.Label(janela, text="Primeiro Número:").pack(pady=5)
 entry_num1 = tk.Entry(janela)
 entry_num1.pack()
@@ -38,7 +35,6 @@ tk.Label(janela, text="Segundo Número:").pack(pady=5)
 entry_num2 = tk.Entry(janela)
 entry_num2.pack()
 
-# Escolha da operação (exemplo simples com botões ou variáveis)
 var_operacao = tk.StringVar(value="+")
 frame_ops = tk.Frame(janela)
 frame_ops.pack(pady=10)
